@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    max-width: 200px;
+    margin: 25px auto;
+    background-image: url(https://www.growproexperience.com/wp-content/uploads/2018/05/Cambio-de-Divisas-a-domicilio-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 99.10% 100%;
+    background-attachment: fixed;
+    }
+
+.divisas{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 15px;
+    background: rgb(3, 175, 255);
+    color: white;
+}
+
+.nombre, .valor{
+    padding: 5px;
+    font-size: 16px;
+    align-self: center;
+    text-align:center;
+}
